@@ -1,0 +1,704 @@
+* {
+    border: none;
+    
+}
+.nav {
+   height: 43px;
+   font-size: small;
+   padding-right: 50px;
+}
+.nav h1 {
+    float: left;
+    margin-left: 90px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-family: Impact;
+    font-weight: lighter;
+}
+.nav ul {
+    list-style-type: none;
+    width: auto;
+    float: right;
+    margin-top: 8px;
+    font-family: Impact;
+    font-weight: 1000;
+} 
+.nav li {
+    display: inline-block;
+}
+.nav a {
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;  
+    color: rgb(112, 34, 34);
+}
+.nav a:hover {
+    color: rgb(170, 144, 109);
+}
+.fresh {
+    background-image: url(../images/atf-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-top: 0px;
+    padding: 75px;
+    text-align: left;
+    color: rgb(59, 23, 23);
+    
+   
+}
+.fresh span {
+    color: rgb(74, 182, 74);
+    text-align: left;
+    margin-left: 0px;
+}
+.fresh h3 {
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    line-height: 49px;
+    color: rgb(58, 28, 28);
+    margin-top: 30px;
+}
+.fresh p {
+    margin-top: -53px;
+    font-style: italic;
+}
+.fresh a {
+   padding: 15px 20px;
+   background-color: #312a26;
+   color: white;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: 700;
+   font-size: xx-small;
+   font-family: sans-serif;
+}
+.fresh a:hover {
+    color: rgb(170, 144, 109);
+}
+.extra {
+    display: inline-flex;
+    text-align: center;
+    max-width: 100%;
+    margin-top: 20px;
+    margin-left: 10%;
+    color: white;
+}
+.m1 {
+    background-image: url(../images/merchandise1.jpg);
+    background-repeat: no-repeat; 
+    background-position: center left;
+    width: 600px;
+    height: 275px;
+    margin-right: 5px;
+    text-align: left;
+    background-size: cover;
+    
+   
+}
+.m1 h3 {
+    margin-left: 50px;
+    margin-top: 80px;
+    font-family: Impact sans-serif;
+    font-size: 25px;
+}
+.m1 a {
+    margin-left: 50px;
+    margin-top: 80px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.m2 {
+    background-image: url(../images/merchandise2.jpg);
+    background-repeat: no-repeat; 
+    background-position: center right;
+    width: 600px;
+    height: 275px;
+    margin-left: 5px;
+    text-align: left;
+    background-size: cover;
+   
+}
+.m2 h3 {
+    margin-left: 50px;
+    margin-top: 80px;
+    font-family: Impact sans-serif;
+    font-size: 25px;
+}
+.m2 a {
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.break {
+    text-align: center;
+}
+.break p {
+    font-style: italic;
+    font-size: smaller;
+    color: rgb(161, 97, 97);
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin-top: 70px;
+}
+.break h3 {
+    font-family: impact;
+    color: rgb(59, 18, 18);
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: -10px;
+    font-weight: lighter;
+}
+.break hr {
+    border: solid rgb(175, 105, 105) 1px;
+    margin-top: -20px;
+    margin-left: 47%;
+    margin-right: 47%;
+}
+.inline1 {
+    padding-left: 8%;
+    display: inline-flex;
+    text-align: left;
+    max-width: 100%;
+    margin: 10px;
+    
+}
+.img1 h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 32, 32);
+    font-size: 15px;
+    
+}
+.img1 p {
+    font-family: sans-serif;
+    color: rgb(172, 102, 102);
+    margin-top: -13px;
+    font-size: small;
+}
+.img2 h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 32, 32);
+    font-size: 15px;
+}
+.img2 p {
+    font-family: sans-serif;
+    color: rgb(172, 102, 102);
+    margin-top: -13px;
+    font-size: small;
+}
+.img3 h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 32, 32);
+    font-size: 15px;
+}
+.img3 p {
+    font-family: sans-serif;
+    color: rgb(172, 102, 102);
+    margin-top: -13px;
+    font-size: small;
+}
+.img4 h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 32, 32);
+    font-size: 15px;
+}
+.img4 p {
+    font-family: sans-serif;
+    color: rgb(172, 102, 102);
+    margin-top: -13px;
+    font-size: small;
+}
+.inline2 {
+    padding-left: 8%;
+    display: inline-flex;
+    text-align: left;
+    max-width: 100%;
+    margin: 10px;
+    
+}
+.img5 h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 32, 32);
+    font-size: 15px;
+}
+.img5 p {
+    font-family: sans-serif;
+    color: rgb(172, 102, 102);
+    margin-top: -13px;
+    font-size: small;
+}
+.img6 h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 32, 32);
+    font-size: 15px;
+}
+.img6 p {
+    font-family: sans-serif;
+    color: rgb(172, 102, 102);
+    margin-top: -13px;
+    font-size: small;
+}
+.img7 h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 32, 32);
+    font-size: 15px;
+}
+.img7 p {
+    font-family: sans-serif;
+    color: rgb(172, 102, 102);
+    margin-top: -13px;
+    font-size: small;
+}
+.img8 h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 32, 32);
+    font-size: 15px;
+}
+.img8 p {
+    font-family: sans-serif;
+    color: rgb(172, 102, 102);
+    margin-top: -13px;
+    font-size: small;
+}
+.ads {
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.ads p {
+    font-style: italic;
+    text-transform: capitalize;
+    color: rgb(172, 102, 102) ;
+    font-size: larger;
+}
+.ads h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.ads a {
+    padding: 10px 18px;
+   background-color: white;
+   color: brown;
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bolder;
+   font-size: x-small;
+   font-family:  sans-serif;
+}
+.ads1 {
+    margin-top: 12%;
+    line-height: 10px;
+}
+.break2 {
+    text-align: center;
+    
+}
+.break2 p {
+    font-style: italic;
+    font-size: smaller;
+    color: rgb(161, 97, 97);
+    text-transform: capitalize;
+    font-family: sans-serif;
+    margin-top: 70px;
+}
+.break2 h3 {
+    font-family: impact;
+    color: rgb(59, 18, 18);
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: -10px;
+    font-weight: lighter;
+}
+.break2 hr {
+    border: solid rgb(175, 105, 105) 1px;
+    margin-top: -20px;
+    margin-left: 47%;
+    margin-right: 47%;
+}
+.inline3 {
+    padding-left: 8%;
+    display: inline-flex;
+    text-align: left;
+    max-width: 100%;
+    margin: 10px;
+    
+}
+.img9 h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 32, 32);
+    font-size: 15px;
+}
+.img9 p {
+    font-family: sans-serif;
+    color: rgb(172, 102, 102);
+    margin-top: -13px;
+    font-size: small;
+}
+.img10 h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 32, 32);
+    font-size: 15px;
+}
+.img10 p {
+    font-family: sans-serif;
+    color: rgb(172, 102, 102);
+    margin-top: -13px;
+    font-size: small;
+}
+.img11 h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 32, 32);
+    font-size: 15px;
+}
+.img11 p {
+    font-family: sans-serif;
+    color: rgb(172, 102, 102);
+    margin-top: -13px;
+    font-size: small;
+}
+.img12 h4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    color: rgb(53, 32, 32);
+    font-size: 15px;
+}
+.img12 p {
+    font-family: sans-serif;
+    color: rgb(172, 102, 102);
+    margin-top: -13px;
+    font-size: small;
+}
+.parent {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+}
+.parent h3 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: xx-large;
+    margin-top: 60px;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+
+.parent a {
+    color: white;
+    line-height: -10px;
+    margin-left: 60px;
+
+}
+.child {
+    width: 49.5%;
+    float: left;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(163, 78, 78);
+    position: relative;
+    font-weight: lighter;
+}
+
+.child:nth-child(1) {
+    margin-right: 1%;
+    background-image: url(../images/merchandise3.jpg);
+}
+
+.child:nth-child(2) {
+    background-image: url(../images/merchandise4.jpg);
+}
+
+.parent2 {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.parent2 h3 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+    font-size: xx-large;
+    margin-top: 60px;
+    margin-left: 60px;
+    text-transform: uppercase;
+}
+.parent2 a {
+    color: white;
+    line-height: -10px;
+    margin-left: 60px;
+
+}
+.child2 {
+    margin-top: 12px;
+    width: 49.5%;
+    float: left;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(163, 78, 78);
+    position: relative;
+    font-weight: lighter;
+}
+
+.child2:nth-child(1) {
+    margin-right: 1%;
+    background-image: url(../images/merchandise5.jpg);
+}
+.child2:nth-child(2) {
+    background-image: url(../images/merchandise6.jpg);
+}
+.break3 {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.break3 h2 {
+    font-family: impact;
+    color: rgb(88, 49, 49);
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: -10px;
+    font-weight: lighter;
+}
+.break3 hr {
+    border: solid rgb(175, 105, 105) 1px;   
+    margin-left: 47%;
+    margin-right: 47%;
+}
+.parent3 {
+    overflow: auto;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reserve:nth-child(1) {
+   font-family: open sans-serif;
+   font-weight: 900;
+   width: 49.5%;
+   color: rgb(82, 55, 55);
+    line-height: 25px;
+}
+.reserve:nth-child(2) {
+    float: right;
+    width: 49.5%;
+    margin-left: 10px;
+    margin-top: -20.5%;
+    line-height: 25px;
+}
+.reserve:nth-child(2) label {
+    text-align: left;
+    color: rgb(82, 55, 55);
+    font-family:  open sans-serif;
+    font-weight: 900;
+}
+.reserve:nth-child(2) h3 {
+    text-align: center;
+    font-family: open sans-serif;
+    color: rgb(82, 55, 55);
+    font-size: large;
+  
+}
+.reserve:nth-child(2) p {
+    text-align: center;
+    font-family: open sans-serif;
+    color: rgb(82, 55, 55);
+    font-size: 15px;
+    line-height: 10px;
+}
+.send input {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-family: open monospace;
+    background-color: rgb(67, 168, 67);
+    color: white;
+    text-transform: uppercase;   
+}
+.parent4 {
+    overflow: auto;
+    width: 90%;
+    margin-left: 3%;
+    margin-right: auto;
+    background-color: brown;
+    margin-top: 30px;
+    display: inline-flex;
+    background-image: url(../images/footer-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+}
+.footer:nth-child(1) {
+    width: 22.5%;
+    margin-left: 60px;
+    margin-top: 18px;
+}
+.footer:nth-child(1) h3 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    font-size: small;
+}
+.footer:nth-child(1) table {
+    color: white;
+    font-family: open monospace;
+    font-weight: lighter;
+    font-size: small;
+    margin-top: -18px;
+}
+
+.footer:nth-child(2) {
+    width: 23%;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.footer:nth-child(2) h3,h4 {
+   color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: small;
+  text-transform: uppercase;
+  line-height: 10px;
+}
+.footer:nth-child(2) h4 {
+   line-height: 0px;
+}
+.footer:nth-child(2) p {
+    color: rgb(226, 193, 149);
+    line-height: 8px;
+}
+
+
+.footer:nth-child(3) {
+    width: 22.5%;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.footer:nth-child(3) h3,h2 {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+.footer:nth-child(3) p {
+color: white;
+line-height: 5px;
+font-size: small;
+
+}
+.footer:nth-child(3) span {
+    color: rgb(226, 193, 149) ;
+}
+.footer:nth-child(3) input {
+    background: white;
+    background-color: rgb(228, 191, 144);
+   padding: 8px;
+   font-size: x-small;
+   
+}
+#loh {
+    background-color: white;
+}
+.footer:nth-child(4) {
+    width: 22%;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.footer:nth-child(4) h2 {
+    font-size: 15px;
+}
+.footer:nth-child(4) h3 {
+    color: rgb(226, 193, 149) ;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -7px;
+}
+.footer:nth-child(4) h4 {
+    color: rgb(226, 193, 149) ;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -7px;
+}
+.footer:nth-child(4) p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    line-height: 3px;
+    font-size: small;
+}
+.last {
+    background-color: rgb(5, 3, 3);
+    width: 93.8%;
+    height: 100px;
+    margin-left: 3%;
+    display: inline-flex;
+    margin-right: auto;
+    margin-top: -12px;
+    text-align: center;
+   
+    color: white;
+}
+.last h2 {
+    color:white;
+    width: 30%;
+    font-family: impact;
+    font-weight: lighter;
+    font-size: larger;
+    margin-top: 30px;
+    
+}
+.last ul {
+    width: 30%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    list-style-type: none;
+}
+.last li {
+    display: inline-flex;
+   color: rgb(26, 18, 18);
+}
+.last a {
+    color: white;
+}
+.last p {
+    width: 30%;
+    color: white;
+    margin-top: 30px;
+}
